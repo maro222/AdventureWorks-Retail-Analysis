@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DESKTOP-1V4QN0F:DESKTOP-1V4QN0F\user">
+          <Created>2024-09-29T12:32:17.7352714+03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-1V4QN0F</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Check If 2 DBs Exist.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Check If 2 DBs Exist.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraints_DW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Constraints_DW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DataWarehouse.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DataWarehouse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DimDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DimDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Staging DB__SCHEMA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Staging DB__SCHEMA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Staging.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Staging.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Staging_views.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Staging_views.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TableTransferDetails_DW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TableTransferDetails_DW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TableTransferDetails_Staging.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-1V4QN0F:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-1V4QN0F</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TableTransferDetails_Staging.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
