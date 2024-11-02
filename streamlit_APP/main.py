@@ -11,9 +11,9 @@ st.sidebar.title("Navigation")
 page = st.sidebar.selectbox("Select a Page", ["Customer Recommendations", "Customer Segmentations", "Reseller Churn"])
 
 # Run the selected app with added visuals and interactivity
-if page == "Customer Recommendations":
-    recommendations_app()
-elif page == "Customer Segmentations":
+#if page == "Customer Recommendations":
+#    recommendations_app()
+if page == "Customer Segmentations":
     run()
 else:
     app2()
