@@ -1,0 +1,7 @@
+surprise
+pandas
+matplotlib
+scikit-learn
+numpy
+gradio
+streamlit
