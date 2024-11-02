@@ -1,5 +1,5 @@
 import streamlit as st
-from app import run  # Import the function for the Customer Segmentations app
+#from app import run  # Import the function for the Customer Segmentations app
 from recommendations_app import recommendations_app
 from reseller_churn_app import app2
 
