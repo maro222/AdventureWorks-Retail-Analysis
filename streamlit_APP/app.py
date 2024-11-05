@@ -61,7 +61,7 @@ st.write("Current working directory:", os.getcwd())
 
 # Load the trained KMeans model and customer data from CSV
 try:
-    with open('Cus_seg_model.pkl', 'rb') as f:
+    with open('streamlit_APP/Cus_seg_model.pkl', 'rb') as f:
         kmeans = pickle.load(f)
     df = pd.read_csv('customers_Segs.csv')
 except Exception as e:
