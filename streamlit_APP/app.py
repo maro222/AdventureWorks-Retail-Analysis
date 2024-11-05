@@ -51,8 +51,3 @@ def run():
         result = segment_customer(customer_id)
         st.write(result)
 
-    
-    if st.button("Get Segment"):
-        result = segment_customer(customer_id)
-        st.write(result)
-
