@@ -63,7 +63,7 @@ st.write("Current working directory:", os.getcwd())
 try:
     with open('streamlit_APP/Cus_seg_model.pkl', 'rb') as f:
         kmeans = pickle.load(f)
-    df = pd.read_csv('customers_Segs.csv')
+    df = pd.read_csv('streamlit_APP/customers_Segs.csv')
 except Exception as e:
     st.write(f"Error loading model or CSV: {str(e)}")
 
