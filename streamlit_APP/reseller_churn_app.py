@@ -60,7 +60,7 @@ st.write("Current working directory:", os.getcwd())
 try:
     with open('streamlit_APP/reseller_churn_model.pkl', 'rb') as f:
         churn_model = pickle.load(f)
-    df_reseller = pd.read_csv('Final_data.csv')
+    df_reseller = pd.read_csv('streamlit_APP/Final_data.csv')
 except Exception as e:
     st.write(f"Error loading model or CSV: {str(e)}")
 
