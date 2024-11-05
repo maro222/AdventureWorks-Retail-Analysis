@@ -58,7 +58,7 @@ st.write("Current working directory:", os.getcwd())
 
 # Load the trained model and reseller data DataFrame
 try:
-    with open('reseller_churn_model.pkl', 'rb') as f:
+    with open('streamlit_APP/reseller_churn_model.pkl', 'rb') as f:
         churn_model = pickle.load(f)
     df_reseller = pd.read_csv('Final_data.csv')
 except Exception as e:
