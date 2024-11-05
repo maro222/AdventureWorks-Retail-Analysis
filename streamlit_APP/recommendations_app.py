@@ -4,11 +4,11 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Load the trained recommendation model
-with open('Cus_Rec_model.pkl', 'rb') as f:
+with open('streamlit_APP/Cus_Rec_model.pkl', 'rb') as f:
     recommendation_model = pickle.load(f)
 
 # Example DataFrame of Customer-Product mapping
-df_products = pd.read_csv('customers_Reco.csv')
+df_products = pd.read_csv('streamlit_APP/customers_Reco.csv')
 
 def get_top_recommendations(customer_id, n_recommendations=5):
     try:
