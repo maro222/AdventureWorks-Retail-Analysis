@@ -4,7 +4,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Load the trained recommendation model
-with open('Cus_Rec_model.pkl', 'rb') as f:
+with open('streamlit_APP/Cus_Rec_model.pkl', 'rb') as f:
     recommendation_model = pickle.load(f)
 
 # Example DataFrame of Customer-Product mapping
