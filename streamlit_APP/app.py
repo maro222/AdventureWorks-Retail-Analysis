@@ -1,6 +1,6 @@
-import streamlit as st
-import pandas as pd
-import pickle
+# import streamlit as st
+# import pandas as pd
+# import pickle
 
 # # Load the trained KMeans model
 # with open('Cus_seg_model.pkl', 'rb') as f:
