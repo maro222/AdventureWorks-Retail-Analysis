@@ -18,7 +18,7 @@ if page == "Customer Segmentations":
     run()
 # elif page == "Customer Recommendations":
 #     recommendations_app()
-else:
+elif page == "Reseller Churn":
     app2()
 
 
